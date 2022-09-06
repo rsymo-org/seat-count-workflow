@@ -2,8 +2,9 @@
 name: Seat Count Email Notification
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 0 * * *
+# Uncomment if you wish to have the job scheduled to run every day (of the month, every week and every day in the week)
+#  schedule:
+#    - cron: 0 0 * * *
 
 jobs:
   seat-count-email:
