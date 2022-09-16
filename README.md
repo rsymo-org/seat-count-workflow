@@ -11,10 +11,14 @@ Docs:
 
 
 
-# seat-count-workflow
+# seat-count-workflow notes & references
 
 Original Action with instructions: https://github.com/austenstone/seat-count-action
+- All credit to original author Austen Stone
 
 The test implementation in this repo: https://github.com/rsymo-org/seat-count-workflow/blob/main/.github/workflows/main.yml
+- Uses workflow dispatch - i.e. manual launch
+    - Actions -> Seat Count Email Notification -> Run Workflow -> Branch = main, Run Workflow
+    - A new action will appear and will only take ~20 seconds to run 
 
 Setting the schedule: https://docs.github.com/en/enterprise-cloud@latest/actions/using-workflows/events-that-trigger-workflows#schedule
